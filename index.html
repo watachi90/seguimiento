@@ -21,85 +21,178 @@
                 <div class="col">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                          <a class="nav-link active" id="arroz-tab" data-bs-toggle="tab" href="#arroz" role="tab" aria-controls="arroz" aria-selected="true">Arroz</a>
+                          <a class="nav-link active" id="agricola-tab" data-bs-toggle="tab" href="#agricola" role="tab" aria-controls="agricola" aria-selected="true">Agricola</a>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <a class="nav-link" id="Maiz-tab" data-bs-toggle="tab" href="#Maiz" role="tab" aria-controls="Maiz" aria-selected="false">Maíz</a>
+                          <a class="nav-link" id="acuicola-tab" data-bs-toggle="tab" href="#acuicola" role="tab" aria-controls="acuicola" aria-selected="false">Acuicola</a>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <a class="nav-link" id="leche-tab" data-bs-toggle="tab" href="#leche" role="tab" aria-controls="leche" aria-selected="false">Leche</a>
+                          <a class="nav-link" id="forestal-tab" data-bs-toggle="tab" href="#forestal" role="tab" aria-controls="forestal" aria-selected="false">Forestal</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="pecuario-tab" data-bs-toggle="tab" href="#pecuario" role="tab" aria-controls="pecuario" aria-selected="false">Pecuario</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="pesquero-tab" data-bs-toggle="tab" href="#pesquero" role="tab" aria-controls="pesquero" aria-selected="false">Pesquero</a>
                         </li>
                     </ul>
                     <div class="tab-content pt-4" id="myTabContent">
-                        <div class="tab-pane fade show active" id="arroz" role="tabpanel" aria-labelledby="arroz-tab">
+                        <div class="tab-pane fade show active" id="agricola" role="tabpanel" aria-labelledby="agricola-tab">
                             <div class="row my-2">
                                 <div class="col">
-                                    <a href="#googleforms"><button class="btn btn-primary">Registrar Avances</button></a>
+                                    <div type="button" class="" data-bs-toggle="modal" data-bs-target="#aguacateModal">
+                                        <div class="row">
+                                            <div class="col text-center"><img src="img/p-aguacate.png" alt=""></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center">Aguacate</div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row my-2">
                                 <div class="col">
-                                    <a href="#seguimiento"><button class="btn btn-primary">Realizar Seguimiento</button></a>
+                                    <div type="button" class="" data-bs-toggle="modal" data-bs-target="#arrozModal">
+                                        <div class="row">
+                                            <div class="col text-center"><img src="img/p-arroz.png" alt=""></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center">Arroz</div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row my-2">
                                 <div class="col">
-                                    <a href="#pop"><button class="btn btn-primary">Consultar el POP y documentos relacionados</button></a>
+                                    <div type="button" class="" data-bs-toggle="modal" data-bs-target="#bananoModal">
+                                        <div class="row">
+                                            <div class="col text-center"><img src="img/p-banano.png" alt=""></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center">Banano</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div type="button" class="" data-bs-toggle="modal" data-bs-target="#cafeModal">
+                                        <div class="row">
+                                            <div class="col text-center"><img src="img/p-cafe.png" alt=""></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col text-center">Cafe</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="Maiz" role="tabpanel" aria-labelledby="Maiz-tab">
+                        <div class="tab-pane fade" id="acuicola" role="tabpanel" aria-labelledby="acuicola-tab">
                             <h4 class="my-2">Más Información Proximamente</h4>
                         </div>
-                        <div class="tab-pane fade" id="leche" role="tabpanel" aria-labelledby="leche-tab">
+                        <div class="tab-pane fade" id="forestal" role="tabpanel" aria-labelledby="forestal-tab">
+                            <h4 class="my-2">Más Información Proximamente</h4>
+                        </div>
+                        <div class="tab-pane fade" id="Pecuario" role="tabpanel" aria-labelledby="Pecuario-tab">
+                            <h4 class="my-2">Más Información Proximamente</h4>
+                        </div>
+                        <div class="tab-pane fade" id="Pesquero" role="tabpanel" aria-labelledby="Pesquero-tab">
                             <h4 class="my-2">Más Información Proximamente</h4>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <!-- <div class="row">
-                <div class="col mt-5">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link active" id="arroz-tab" data-toggle="tab" href="#arroz" role="tab" aria-controls="arroz" aria-selected="true">Arroz</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link" id="maiz-tab" data-toggle="tab" href="#maiz" role="tab" aria-controls="maiz" aria-selected="false">Maiz</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link" id="leche-tab" data-toggle="tab" href="#leche" role="tab" aria-controls="leche" aria-selected="false">Leche</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="arroz" role="tabpanel" aria-labelledby="arroz-tab">
-                            <div class="row my-2">
-                                <div class="col">
-                                    <a href="#googleforms"><button class="btn btn-primary">Registrar Avances</button></a>
-                                </div>
-                            </div>
-                            <div class="row my-2">
-                                <div class="col">
-                                    <a href="#seguimiento"><button class="btn btn-primary">Realizar Seguimiento</button></a>
-                                </div>
-                            </div>
-                            <div class="row my-2">
-                                <div class="col">
-                                    <a href="#pop"><button class="btn btn-primary">Consultar el POP y documentos relacionados</button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="maiz" role="tabpanel" aria-labelledby="maiz-tab">
-                            <h4>Más Información Proximamente</h4>
-                        </div>
-                        <div class="tab-pane fade" id="leche" role="tabpanel" aria-labelledby="leche-tab">
-                            <h4>Más Información Proximamente</h4>
+        </main>
+
+
+    </div>
+
+    <!-- Modales -->
+    <div class="modal fade" id="aguacateModal" tabindex="-1" aria-labelledby="aguacateModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aguacateModalLabel">Plan de ordenamiento: Aguacate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row my-2">
+                        <div class="col">
+                            <h4 class="my-2">Más Información Proximamente</h4>
                         </div>
                     </div>
                 </div>
-            </div> -->
-        </main>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="modal fade" id="arrozModal" tabindex="-1" aria-labelledby="arrozModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="arrozModalLabel">Plan de ordenamiento: Arroz</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row my-2">
+                        <div class="col">
+                            <a href="#googleforms"><button class="btn btn-primary">Registrar Avances</button></a>
+                        </div>
+                    </div>
+                    <div class="row my-2">
+                        <div class="col">
+                            <a href="#seguimiento"><button class="btn btn-primary">Realizar Seguimiento</button></a>
+                        </div>
+                    </div>
+                    <div class="row my-2">
+                        <div class="col">
+                            <a href="#pop"><button class="btn btn-primary">Consultar el POP y documentos relacionados</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="bananoModal" tabindex="-1" aria-labelledby="bananoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bananoModalLabel">Plan de ordenamiento: Banano</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row my-2">
+                        <div class="col">
+                            <h4 class="my-2">Más Información Proximamente</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="cafeModal" tabindex="-1" aria-labelledby="cafeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cafeModalLabel">Plan de ordenamiento: Cafe</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row my-2">
+                        <div class="col">
+                            <h4 class="my-2">Más Información Proximamente</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
    <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"
